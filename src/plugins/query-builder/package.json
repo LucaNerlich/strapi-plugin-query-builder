@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "Easily generate REST Queries and explore your Content Type API.",
   "strapi": {
-    "name": "query-builder",
+    "name": "Query Builder",
     "description": "Easily generate REST Queries and explore your Content Type API.",
     "kind": "plugin",
     "displayName": "Query Builder"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@strapi/design-system": "^1.1.1"
+  },
   "devDependencies": {},
   "bugs": "https://github.com/LucaNerlich/strapi-plugin-query-builder/issues",
   "homepage": "https://github.com/LucaNerlich/strapi-plugin-query-builder",

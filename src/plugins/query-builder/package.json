@@ -6,12 +6,13 @@
     "name": "Query Builder",
     "description": "Easily generate REST Queries and explore your Content Type API.",
     "kind": "plugin",
+    "icon": "connector",
     "displayName": "Query Builder"
   },
-  "dependencies": {
-    "@strapi/design-system": "^1.1.1"
+  "dependencies": {},
+  "devDependencies": {
+    "react-intl": "^6.0.3"
   },
-  "devDependencies": {},
   "bugs": "https://github.com/LucaNerlich/strapi-plugin-query-builder/issues",
   "homepage": "https://github.com/LucaNerlich/strapi-plugin-query-builder",
   "author": {

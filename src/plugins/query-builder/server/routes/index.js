@@ -7,4 +7,13 @@ module.exports = [
       policies: [],
     },
   },
+  {
+    method: "GET",
+    path: "/find",
+    handler: "queryBuilder.find",
+    config: {
+      policies: [],
+      auth: false,
+    },
+  },
 ];

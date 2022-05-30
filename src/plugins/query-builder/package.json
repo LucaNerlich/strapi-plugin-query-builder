@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-query-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily generate REST Queries and explore your Content Type API.",
   "strapi": {
     "name": "Query Builder",

@@ -1,25 +1,31 @@
 {
   "name": "query-builder",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "0.0.1",
+  "description": "Easily generate REST Queries and explore your Content Type API.",
   "strapi": {
     "name": "query-builder",
-    "description": "Description of Query Builder plugin",
+    "description": "Easily generate REST Queries and explore your Content Type API.",
     "kind": "plugin",
     "displayName": "Query Builder"
   },
   "dependencies": {},
+  "devDependencies": {},
+  "bugs": "https://github.com/LucaNerlich/strapi-plugin-query-builder/issues",
+  "homepage": "https://github.com/LucaNerlich/strapi-plugin-query-builder",
   "author": {
-    "name": "A Strapi developer"
+    "name": "Luca Nerlich",
+    "url": "https://github.com/LucaNerlich"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Luca Nerlich",
+      "url": "https://github.com/LucaNerlich"
     }
   ],
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": "16.15.0",
+    "npm": "8.5.5",
+    "yarn": "3.2.1"
   },
   "license": "MIT"
 }

@@ -9,8 +9,8 @@ module.exports = [
   },
   {
     method: "GET",
-    path: "/find",
-    handler: "queryBuilder.find",
+    path: "/getAll",
+    handler: "queryBuilder.getAll",
     config: {
       policies: [],
       auth: false,

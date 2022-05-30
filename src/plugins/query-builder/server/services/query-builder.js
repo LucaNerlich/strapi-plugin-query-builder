@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = ({strapi}) => ({
-  async find(query) {
+  async getAll() {
     console.log("query-builder service");
-    return await strapi.contentTypes;
+    return await strapi.db.config.models;
   },
 })

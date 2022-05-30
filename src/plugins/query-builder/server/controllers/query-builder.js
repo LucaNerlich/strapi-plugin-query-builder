@@ -1,9 +1,10 @@
 'use strict';
 
 module.exports = {
-  async find(ctx) {
+  async getAll(ctx) {
     try {
-      return await strapi.plugin("query-builder").service("query-builder").find(ctx.query);
+      console.log("ping")
+      return ctx.body = await strapi.plugin("query-builder").service("queryBuilder").getAll();
     } catch (err) {
       ctx.throw(500, err);
     }

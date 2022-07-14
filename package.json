@@ -17,7 +17,7 @@
     "@strapi/strapi": "4.1.12",
     "@strapi/plugin-users-permissions": "4.1.12",
     "@strapi/plugin-i18n": "4.1.12",
-    "better-sqlite3": "7.5.3"
+    "better-sqlite3": "7.6.1"
   },
   "author": {
     "name": "Luca Nerlich"

@@ -14,7 +14,7 @@
     "@strapi/design-system": "^1.1.1"
   },
   "dependencies": {
-    "@strapi/strapi": "4.1.12",
+    "@strapi/strapi": "4.3.9",
     "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/plugin-i18n": "4.1.12",
     "better-sqlite3": "7.6.2"
